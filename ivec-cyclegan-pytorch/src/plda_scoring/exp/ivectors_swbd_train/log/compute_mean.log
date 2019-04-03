@@ -1,0 +1,9 @@
+# ivector-normalize-length scp:exp/ivectors_swbd_train/ivector.scp ark:- | ivector-mean ark:- exp/ivectors_swbd_train/mean.vec 
+# Started at Mon Mar 18 00:32:21 JST 2019
+#
+ivector-mean ark:- exp/ivectors_swbd_train/mean.vec 
+ivector-normalize-length scp:exp/ivectors_swbd_train/ivector.scp ark:- 
+LOG (ivector-normalize-length[5.5.227~2-4d614]:main():ivector-normalize-length.cc:90) Processed 33037 iVectors.
+LOG (ivector-normalize-length[5.5.227~2-4d614]:main():ivector-normalize-length.cc:94) Average ratio of iVector to expected length was 0.9817, standard deviation was 0.121728
+# Accounting: time=8 threads=1
+# Ended (code 0) at Mon Mar 18 00:32:29 JST 2019, elapsed time 8 seconds

@@ -1,0 +1,104 @@
+# ivector-normalize-length scp:exp/C5/adapted_train/ivector.scp ark:- | ivector-mean ark:data/sre10_train/spk2utt ark:- ark:- ark,t:exp/C5/adapted_train/num_utts.ark | ivector-normalize-length ark:- ark,scp:exp/C5/adapted_train/spk_ivector.ark,exp/C5/adapted_train/spk_ivector.scp 
+# Started at Mon Mar 18 00:32:18 JST 2019
+#
+ivector-mean ark:data/sre10_train/spk2utt ark:- ark:- ark,t:exp/C5/adapted_train/num_utts.ark 
+ivector-normalize-length ark:- ark,scp:exp/C5/adapted_train/spk_ivector.ark,exp/C5/adapted_train/spk_ivector.scp 
+ivector-normalize-length scp:exp/C5/adapted_train/ivector.scp ark:- 
+LOG (ivector-normalize-length[5.5.227~2-4d614]:main():ivector-normalize-length.cc:90) Processed 11941 iVectors.
+LOG (ivector-normalize-length[5.5.227~2-4d614]:main():ivector-normalize-length.cc:94) Average ratio of iVector to expected length was 0.685905, standard deviation was 0.00347
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 32158m-expon_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 32158 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 32159m-expow_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 32159 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 32779f-taubn_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 32779 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 32841m-tbgau_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 32841 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 32964f-tcjbo_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 32964 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 33490f-thmtc_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 33490 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 33664m-tiyyw_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 33664 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 33792m-tkhho_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 33792 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 33872m-tkyws_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 33872 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 34140f-tnooi_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 34140 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 34317f-tpgjz_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 34317 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 34596f-trtes_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 34596 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 34759f-tthcn_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 34759 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 34877m-tufmk_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 34877 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 34938f-tuugg_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 34938 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 34996f-tvgze_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 34996 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 35001m-tvhlk_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 35001 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 35082f-twhqs_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 35082 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 35264f-tydxn_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 35264 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 35329f-tytsf_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 35329 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 35333m-tyuen_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 35333 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 35354m-tyzan_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 35354 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 35376f-tzfsr_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 35376 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 35750m-tagsi_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 35750 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 35848f-taqxj_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 35848 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 36143f-tbvfk_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 36143 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 36159f-tbwlv_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 36159 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 36882m-texpj_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 36882 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 37028f-tfovx_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 37028 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 37857f-tjahy_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 37857 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 37862f-tjaou_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 37862 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 37923f-tjgcl_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 37923 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 37928f-tjgpy_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 37928 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 38000f-tjosv_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 38000 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 38070f-tjvyx_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 38070 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 38158f-tkevy_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 38158 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 38264f-tkqxo_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 38264 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 38338f-tkzqi_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 38338 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 38907f-tnhrk_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 38907 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 39050m-tnvhl_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 39050 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 39581m-tpxoi_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 39581 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 40237m-tsuki_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 40237 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 41015m-tvxgl_A
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 41015 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 41199f-twqgf_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 41199 since no utterances had iVectors
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:105) No iVector present in input for utterance 41490m-txzpb_B
+WARNING (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:118) Not producing output for speaker 41490 since no utterances had iVectors
+LOG (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:134) Computed mean of 11938 speakers (45 with no utterances), consisting of 11938 utterances (45 absent from input).
+LOG (ivector-mean[5.5.227~2-4d614]:main():ivector-mean.cc:145) Norm of mean of speakers is 3.70085, root-mean-square speaker-iVector length divided by sqrt(dim) is 1
+LOG (ivector-normalize-length[5.5.227~2-4d614]:main():ivector-normalize-length.cc:90) Processed 11938 iVectors.
+LOG (ivector-normalize-length[5.5.227~2-4d614]:main():ivector-normalize-length.cc:94) Average ratio of iVector to expected length was 1, standard deviation was -nan
+# Accounting: time=3 threads=1
+# Ended (code 0) at Mon Mar 18 00:32:21 JST 2019, elapsed time 3 seconds
